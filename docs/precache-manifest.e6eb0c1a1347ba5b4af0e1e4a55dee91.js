@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "537679153a43d1ca471b",
+    "revision": "b42505777f5636a3ab88",
     "url": "css/app.b3768ad1.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/chunk-5866690a.90bb780c.css"
   },
   {
-    "revision": "f3141560a56f250da728",
-    "url": "css/chunk-723def32.899016dd.css"
+    "revision": "a0bfc5127e43d24232ad",
+    "url": "css/chunk-6bdeb1f4.64397676.css"
   },
   {
-    "revision": "5515b2a4a58201daf754",
-    "url": "css/chunk-72e1462c.af630103.css"
+    "revision": "f3141560a56f250da728",
+    "url": "css/chunk-723def32.899016dd.css"
   },
   {
     "revision": "b29b686beeee5dcc91f0",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0cfb52d9deef0a7ee5f0",
     "url": "css/chunk-e844c228.8af1033f.css"
-  },
-  {
-    "revision": "2b4e9b5dbe76aab834ed6a0fc90b794c",
-    "url": "data/330001okayamacovid19medicalsystem.csv"
   },
   {
     "revision": "5d9982c36ddb5bbf6fe75d9538f041b3",
@@ -80,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "data/Okayama_yakkyoku.csv"
   },
   {
+    "revision": "e81d9c5e0f0c70402ff57f74c851fb61",
+    "url": "data/PCR.csv"
+  },
+  {
     "revision": "0a6608499900fa512ece299dce8c5913",
     "url": "data/Park_location.csv"
   },
@@ -100,32 +100,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "data/Welfare_location.csv"
   },
   {
-    "revision": "79cb50252e27b832a573243afe329645",
-    "url": "data/kanjahasseijoukyou.csv"
+    "revision": "c7617cd97682df6eee274e615243c6bd",
+    "url": "data/医療体制整備状況.csv"
   },
   {
-    "revision": "128fa6cc2f17de61fef4c8c5aed5a749",
-    "url": "data/kansenshashousaijouhou.csv"
+    "revision": "f1b19c5552c67bf62a1ec6df4b41ba23",
+    "url": "data/患者発生状況（週１回）.csv"
   },
   {
-    "revision": "4b3f7d5fe310b19130d79b03f94d1a42",
-    "url": "data/kansenshasuu0420.csv"
+    "revision": "bd07a773a50c4f659186f81650fc2335",
+    "url": "data/感染者数.csv"
   },
   {
-    "revision": "f8af0f46d90b055f5e6993046b71abce",
-    "url": "data/pcr.csv"
+    "revision": "4d683163f9747aedf95f2e11b1c04fa9",
+    "url": "data/感染者詳細情報.csv"
   },
   {
     "revision": "127965e6fc5200fd35e6cb99ba282d39",
     "url": "img/yajirushi.127965e6.png"
   },
   {
-    "revision": "02dd2feb6ebcbe7ba75c1d7c6bc0b7f7",
+    "revision": "d38087fe7ea068edee7160edf9dfc4ce",
     "url": "index.html"
   },
   {
-    "revision": "537679153a43d1ca471b",
-    "url": "js/app.66347a19.js"
+    "revision": "b42505777f5636a3ab88",
+    "url": "js/app.edda74a8.js"
   },
   {
     "revision": "1159b0fdb73e12a6895b",
@@ -136,12 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/chunk-5866690a.e2664e9d.js"
   },
   {
-    "revision": "f3141560a56f250da728",
-    "url": "js/chunk-723def32.82775452.js"
+    "revision": "a0bfc5127e43d24232ad",
+    "url": "js/chunk-6bdeb1f4.03cb289d.js"
   },
   {
-    "revision": "5515b2a4a58201daf754",
-    "url": "js/chunk-72e1462c.aaf1724b.js"
+    "revision": "f3141560a56f250da728",
+    "url": "js/chunk-723def32.82775452.js"
   },
   {
     "revision": "b29b686beeee5dcc91f0",
