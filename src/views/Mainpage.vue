@@ -44,6 +44,7 @@ export default {
   },
   computed: {
     readyToshowMainPage: function() {
+      console.log(this.last);
       return this.kenDetails.length > 0 &&
       this.kenUtiwake.length > 0 &&
       this.kenPcr.length > 0 &&
