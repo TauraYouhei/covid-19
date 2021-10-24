@@ -73,10 +73,7 @@ export default {
     infected: function() {
       //const filteredZenkoku = this.ZenkokuDetail.reduce((p,x)=>p+x["PCR 検査陽性者数(単日)"],0)
       const filteredZenkoku = this.Zenkoku.reduce((sum,each)=>sum + each["npatients"],0);
-      let a = this.kenUtiwake[this.kenUtiwake.length-1]["集計時点_年月日"].replace("年","/");
-      a = a.replace("月","/");
-      a = a.replace("日","/");
-      a = a.split("/")
+      let a = this.kenUtiwake[this.kenUtiwake.length-1]["集計時点_年月日"].split("/")
       for (let i=1; i<3; i++){
         if (a[i].length==1){
           a[i] = "0" + a[i];
@@ -100,10 +97,7 @@ export default {
     },
     pcr: function(){
       const filteredZenkokuPcr = this.Zenkoku.reduce((sum,each)=>sum + each["ninspections"],0);
-      const filteredOkayamaPcr = this.kenPcr.filter(function(each){
-          if (each.公表年月日 != '') return true
-        });
-      const hiduke = filteredOkayamaPcr[filteredOkayamaPcr.length-1].公表年月日.split("/");
+      const hiduke = this.kenPcr[this.kenPcr.length-1].公表年月日.split("/");
       if (hiduke[2].length==1){
         hiduke[2] = "0" + hiduke[2];
       }
