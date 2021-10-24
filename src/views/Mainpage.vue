@@ -101,9 +101,9 @@ export default {
     pcr: function(){
       const filteredZenkokuPcr = this.Zenkoku.reduce((sum,each)=>sum + each["ninspections"],0);
       const filteredOkayamaPcr = this.kenPcr.filter(function(each){
-          if (each.集計時点_年月日 != '') return true
+          if (each.公表年月日 != '') return true
         });
-      const hiduke = filteredOkayamaPcr[filteredOkayamaPcr.length-1].集計時点_年月日.split("/");
+      const hiduke = filteredOkayamaPcr[filteredOkayamaPcr.length-1].公表年月日.split("/");
       if (hiduke[2].length==1){
         hiduke[2] = "0" + hiduke[2];
       }
