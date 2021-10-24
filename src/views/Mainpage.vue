@@ -179,7 +179,7 @@ export default {
   },
   mounted: function() {
     this.get_csv("https://taurayouhei.github.io/covid-19/data/感染者数.csv",true,'SJIS','UNICODE', this.setKenDetails);
-    this.get_csv("https://taurayouhei.github.io/covid-19/data/pcr.csv",true,'SJIS','UNICODE', this.setKenPcr); 
+    this.get_csv("https://taurayouhei.github.io/covid-19/data/PCR.csv",true,'SJIS','UNICODE', this.setKenPcr); 
     this.get_csv("https://taurayouhei.github.io/covid-19/data/感染者詳細情報.csv",true,'SJIS','UNICODE',  this.setKenUchiwake);
     this.get_csv("https://taurayouhei.github.io/covid-19/data/患者発生状況（週１回）.csv",true,'SJIS','UNICODE',  this.setKenDead);
     this.get_csv("https://taurayouhei.github.io/covid-19/data/医療体制整備状況.csv",true,'SJIS','UNICODE',  this.setKenIryou);
