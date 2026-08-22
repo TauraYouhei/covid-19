@@ -1,6 +1,27 @@
 <template>
   <div>
     <mainmenu judge=0 />
+    <!-- 新サイトへの案内 -->
+    <div class="new-site-notice">
+      <div class="notice-icon">✨</div>
+
+      <div class="notice-content">
+        <p class="notice-title">
+          新しいページが公開されています
+        </p>
+
+        <p class="notice-text">
+          新しいデザインの新型コロナウイルス情報ページをご利用いただけます。
+        </p>
+
+        <a
+          class="new-site-button"
+          href="https://taurayouhei.github.io/covid-19-new/"
+        >
+          新サイトはこちら
+        </a>
+      </div>
+    </div>
     <h1>新型コロナウイルス情報</h1>
     <div class="flex" v-if="readyToshowMainPage">
       <div class="box">
@@ -422,4 +443,127 @@ h1{
 .tab-switch {
     display: none;
 }
+/* ========================================
+   新サイト案内
+======================================== */
+
+.new-site-notice {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto 30px;
+  padding: 18px 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    135deg,
+    #eef8ff 0%,
+    #ffffff 100%
+  );
+
+  border: 1px solid #b9ddf7;
+  border-left: 5px solid #1689e5;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 100, 180, 0.08);
+}
+
+.notice-icon {
+  flex-shrink: 0;
+
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e1f2ff;
+  border-radius: 50%;
+
+  font-size: 22px;
+}
+
+.notice-content {
+  flex: 1;
+  text-align: left;
+}
+
+.notice-title {
+  margin: 0 0 5px;
+
+  color: #1676c5;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.notice-text {
+  margin: 0 0 12px;
+
+  color: #555;
+
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.new-site-button {
+  display: inline-block;
+
+  padding: 8px 18px;
+
+  background: #1689e5;
+  color: #ffffff;
+
+  border-radius: 20px;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+.new-site-button:hover {
+  background: #0d6fb8;
+  transform: translateY(-1px);
+}
+
+
+/* PC */
+@media screen and (min-width: 480px) {
+
+  .new-site-notice {
+    width: 80%;
+    margin: 30px auto 40px;
+    padding: 22px 30px;
+    gap: 20px;
+  }
+
+  .notice-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 27px;
+  }
+
+  .notice-title {
+    font-size: 20px;
+  }
+
+  .notice-text {
+    font-size: 15px;
+  }
+
+  .new-site-button {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+}
+
 </style>
